@@ -53,6 +53,3 @@ Flex sensors detect finger bending patterns. The Arduino reads sensor values, cl
 * AI-based gesture recognition
 * Improved wearable design
 
-## Team
-
-Team Noventra
