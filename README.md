@@ -29,6 +29,12 @@ The system detects finger movements using flex sensors, processes gestures using
 
 Flex sensors detect finger bending patterns. The Arduino reads sensor values, classifies predefined gestures, displays the output on LCD, and sends the message through Bluetooth to a connected device.
 
+## System Architecture
+
+Flex Sensors → Arduino UNO → Gesture Classification → HC-05 Bluetooth → Mobile Device
+
+The system follows a complete embedded communication pipeline involving sensing, processing, and wireless transmission.
+
 ## Recognized Gestures
 
 * HELP
